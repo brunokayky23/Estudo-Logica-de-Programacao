@@ -15,4 +15,8 @@ elif media < 7:
 else:
     print("APROVADO!")
 
+print('')
+
+print(f"Primeira Nota: ")
+
 print("==== FIM ====")
