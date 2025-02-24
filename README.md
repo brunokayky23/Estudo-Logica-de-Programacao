@@ -78,7 +78,7 @@ R = F
 
 R = ((NOT (V) OR F) AND (V AND NOT(F))) OR NOT(V OR F)
 R = ((F OR F) AND (V AND V)) OR NOT(V OR F)
-R = (F) AND (V) OR NOT(V OR F)
+R = ((F) AND (V)) OR NOT(V OR F)
 R = (F AND V) OR NOT(V OR F)
 R = F OR NOT(V)
 R = F OR F
