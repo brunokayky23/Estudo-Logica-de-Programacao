@@ -9,5 +9,9 @@ print('')
 
 print(f"Número um: {num_um}")
 print(f"Número dois:{num_dois}")
-print(f"Maior número: {maior}")
-print(f"Menor número: {menor}")
+if num_um == num_dois:
+    print("Os números são iguais")
+else:
+    print(f"Maior número: {maior}")
+    print(f"Menor número: {menor}")
+print('')

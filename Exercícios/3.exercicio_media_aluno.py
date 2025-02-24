@@ -17,6 +17,8 @@ else:
 
 print('')
 
-print(f"Primeira Nota: ")
+print(f"Primeira Nota: {nota_um} ")
+print(f"Segunda Nota: {nota_dois} ")
+print(f"Terceira Nota: {nota_tres} ")
 
 print("==== FIM ====")

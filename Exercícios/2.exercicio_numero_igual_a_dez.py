@@ -4,9 +4,9 @@ os.system("clear")
 um_valor = int(input("Digite um valor: "))
 
 if um_valor > 10:
-    print("MAIOR QUE DEZ")
+    print("É MAIOR QUE DEZ")
 elif um_valor < 10:
-    print("MENOR QUE DEZ")
+    print("É MENOR QUE DEZ")
 else: 
-    print("IGUAL A DEZ")
+    print("É IGUAL A DEZ")
 print("==== FIM ====")    
