@@ -4,9 +4,12 @@ os.system("clear")
 idade = int(input("Digite sua idade: "))
 
 
-if idade > 64:
-    print("Sem obrigatoriedade de voto!!!")
-elif idade < 18:
-    print("Não precisa votar!!!")
-else: 
-    print("Voto Obrigatório!!!")
+if idade > 17 and idade < 65:
+    print("Voto Obrigatório")
+elif idade < 16:
+    print("Não Vota")
+elif idade >= 65:
+    print("Voto opicional.")
+else:
+    print("Voto opicional")
+print('')
